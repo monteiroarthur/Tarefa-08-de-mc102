@@ -76,14 +76,3 @@ Aguas futuras| movem moinhos.
 Código Base
 No arquivo auxiliar lab08.py você irá encontrar um código base para dar início ao processo de elaboração deste laboratório.
 
-Orientações
-Veja aqui a página de submissão da tarefa.
-O arquivo a ser submetido deve se chamar lab08.py.
-No link "Arquivos auxiliares" há um arquivo compactado (aux08.zip) que contém todos os arquivos de testes abertos (entradas e saídas esperadas).
-O laboratório é composto de 10 testes abertos e 10 testes fechados.
-O limite máximo será de 20 submissões.
-Acesse o sistema SuSy com seu RA (apenas números) e a senha que você utiliza para fazer acesso ao sistema da DAC.
-Você deve seguir as instruções de submissão descritas no enunciado.
-Serão considerados apenas os resultados da última submissão.
-Esta tarefa tem peso 3.
-O prazo final para submissão é dia 17/05/2026 (domingo).
