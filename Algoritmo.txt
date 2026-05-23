@@ -1,0 +1,51 @@
+Infos:
+    Manter a posição do cursor e realizar edições no texto
+    Todo caracter em branco é um espaço
+    movimentação cursor:
+        input(str(E)) ou input(str(D):
+             indica direção que o cursor deve andar 
+        input(int(N)):
+            inidica a quantidade de posições que o cursor deve ser deslocado
+        exemplo entrada:
+                E 10 (Cursor desloca 10 posições para a esquerda)
+        obs:
+            Caso o cursor chegue na posição final ou inicial ele deve permanecer lá
+             Se N>str de entrada:
+                O cursor deve andar até o limite da linha e não N por completo
+    Apagando caractere:
+        input(str(x)):
+            Apaga o caractere logo após o cursor e o ccursor permanece na mesma posição
+            Se a posição do cursor estiver na posição final, nada acontece
+    Apagando palavras:
+        input(str(X)):
+            A palavra na aposição atual do cursor é apagada e o cursor é posicionado antes do caractere da proxima palavra
+        obs:
+            O cursor está em uma palavra se:
+                Se estiver entre dois caracteres de uma palavra ou antes do primeiro caractere da palavra
+        Se o cursor estiver na posição final ou antes de um caractere de espaço ou de pontuação, nada acontece
+    Inserindo caractere:
+        input(str(i)):
+            detecta se é para inserir caractere
+        input(str(C)):
+            "C" é o caractere a ser inserido
+        O cursor deve se mover uma posição para a direita a cada palavra inserida
+    Inserindo palavra:
+        input(str(I)):
+            detecta se é para inserir palavra
+        input(str(P)):
+            "P" é a palavra a ser inserida
+        A palavra deve ser inserida na posição atual do cursor e o mesmo deve se mover para direita após a insecção
+        Antes de inserir uma palavra deve ser inserido um espaço (exeto na posição inicial)
+    F indica o fim do programa
+
+--------------------------------------------------------------------------------------------------------------------
+
+Algoritmo:
+    Entrada:
+        Ler string de entrada (texto inical)
+        criar loop para comadnos de edição
+        avaliar se a entrada é F
+        processar comandos de edição
+    Saida:
+        imprimir a minha string (texto inical) modificada
+
